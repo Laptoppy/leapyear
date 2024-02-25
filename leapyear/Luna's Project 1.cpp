@@ -25,16 +25,16 @@ int main()
 	std::cin >> year; //assigning the year
 
 	if (division(year) != 0)
-		std::cout << "Common year";
+		std::cout << "Common year \n";
 
 	else if (hundred(year) != 0)
-		std::cout << "Leap year";
+		std::cout << "Leap year \n";
 
 	else if (fourhundred(year) != 0)
-		std::cout << "Common year";
+		std::cout << "Common year \n";
 
 	else
-		std::cout << "Leap year";
+		std::cout << "Leap year \n";
 
 	return 0;
 
